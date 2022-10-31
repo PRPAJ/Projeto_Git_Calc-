@@ -1,3 +1,5 @@
+from funcoes import soma,subtracao,multiplicacao,divisao
+
 def calcule(a, b, op):
     if op == '+' or 'soma':
         return soma(a,b)
